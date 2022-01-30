@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width:28%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+img{
+    width: 100%;
+}
+h3{
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+button{
+    padding: 8px 10px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(11, 109, 11);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+   
+}
+.counter_box{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    background-color: lightgrey;
+    border-top: 1px solid grey;
+    margin-top: 10px;
+    align-items: center;
+}
